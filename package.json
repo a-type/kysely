@@ -29,13 +29,13 @@
 		"kysely": "^0.27.2"
 	},
 	"devDependencies": {
-		"@types/bcrypt": "^5.0.2",
+		"@types/bcryptjs": "^2.4.6",
 		"@types/node": "^20.11.17",
 		"kysely": "^0.27.2",
 		"typescript": "^5.3.3"
 	},
 	"dependencies": {
 		"@paralleldrive/cuid2": "^2.2.2",
-		"bcrypt": "^5.1.1"
+		"bcryptjs": "^2.4.3"
 	}
 }
