@@ -1,5 +1,5 @@
 import { createId } from '@paralleldrive/cuid2';
-import * as bcrypt from 'bcryptjs';
+import * as bcrypt from 'bcrypt-ts';
 
 export function id(prefix?: string) {
 	return `${prefix || ''}${createId()}`;
